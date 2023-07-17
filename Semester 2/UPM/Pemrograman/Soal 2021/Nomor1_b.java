@@ -1,9 +1,5 @@
-import java.util.Scanner;
-
 public class Nomor1_b {
     public static void main (String[] args) {
-        Scanner in = new Scanner(System.in);
-        
         // SEGITIGA 1
         for (int baris = 1; baris <= 5; baris++){
             for (int space = 4; space >= baris; space--) {
