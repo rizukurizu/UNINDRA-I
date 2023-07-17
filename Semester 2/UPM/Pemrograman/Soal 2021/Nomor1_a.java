@@ -1,9 +1,5 @@
-import java.util.Scanner;
-
 public class Nomor1_a {
     public static void main (String[] args) {
-        Scanner in = new Scanner(System.in);
-        
         for (int baris = 1; baris <= 3; baris++) {
             for (int kolom = 1; kolom <= 5; kolom++) {
                 if (baris == 2) {
