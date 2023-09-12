@@ -12,7 +12,7 @@
 </div>
 
 <div align="center">
-  <p>VISITOR</p>
+  <h3>VISITOR</h3>
   <img src="https://profile-counter.glitch.me/TobyG74-UNINDRA/count.svg">
 
 </div>
