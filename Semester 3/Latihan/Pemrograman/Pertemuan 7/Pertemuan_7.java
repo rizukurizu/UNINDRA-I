@@ -40,7 +40,7 @@ public class Pertemuan_7 {
             // Hitung Rata - Rata
             rata2 = jumlah / (no - 1);
             System.out.println("------------------------------------------------------------");
-            System.out.println("Rata-Rata : " + rata2);
+            System.out.println("Rata-Rata : " + "%.2f".formatted(rata2));
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
