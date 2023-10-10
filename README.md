@@ -22,6 +22,7 @@
 ## 🧐 Deskripsi
 
 -   Repository ini hanya untuk kumpulan materi & latihan soal + jawaban dari UNINDRA.
+-   Jangan terpaku sama jawaban yang ada disini sampe ngebuat lu yang jurusan Teknik Informatika tapi #GakBisaNgoding
 -   Dimohon untuk bisa ikut kontribusi ya, jgn cuma ambil aja, TQ
 
 <br>
