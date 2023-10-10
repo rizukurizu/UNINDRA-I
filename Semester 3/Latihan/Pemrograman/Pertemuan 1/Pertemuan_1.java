@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pertemuan1 {
+public class Pertemuan_1 {
     public static void main (String[] args) {
         System.out.println("Tugas 1: Dasar Pemrograman Java");
         System.out.println("Nama : Tobi Saputra");
