@@ -1,4 +1,4 @@
-public class P3_Pertemuan5_Lat3 {
+public class Pertemuan_5_Latihan3 {
     public static void main(String[] args) {
         System.out.println("Tugas 4: Operasi String");
         System.out.println("Nama : Tobi Saputra");
