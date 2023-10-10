@@ -23,7 +23,8 @@
 
 -   Repository ini hanya untuk kumpulan materi & latihan soal + jawaban dari UNINDRA.
 -   Jangan terpaku sama jawaban yang ada disini sampe ngebuat lu yang jurusan Teknik Informatika tapi #GakBisaNgoding
--   Dimohon untuk bisa ikut kontribusi ya, jgn cuma ambil aja, TQ
+-   Jawaban yang ada disini hanya untuk pembelajaran saja! Bukan untuk sharing jawaban...
+-   Mau ikut kontribusi?? Boleh...
 
 <br>
 <a href="https://drive.google.com/drive/folders/1OXTCf_3JciNZNeK8nJFuW-1b-hSWq6-Z?usp=share_link" target="_blank"><img src="https://img.shields.io/badge/download materi-%2327b51d.svg?style=for-the-badge&logoColor=white" alt="link-materi"/></a>
