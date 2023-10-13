@@ -34,4 +34,4 @@
 -   [Ishafakhri](https://github.com/Ishafakhri)
 -   [Alfarobby27](https://github.com/Alfarobby27)
 -   [Ilmans](https://github.com/Ilmans)
--   [Sepuh Rahmat](https://github.com/LilitCX)
+-   [Sepuh Rahmad](https://github.com/LilitCX)
