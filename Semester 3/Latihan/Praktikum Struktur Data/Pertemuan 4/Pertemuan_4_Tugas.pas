@@ -14,22 +14,21 @@ var mahasiswa: mhsw;
 begin
     clrscr;
     new(mahasiswa);
-    write('Masukkan jumlah mahasiswa: '); readln(jumlah);
+    write('Masukkan banyak data: '); readln(jumlah);
+    writeln;
     for i:=1 to jumlah do
     begin
-        writeln('Mahasiswa ke-', i);
-        write('Nama: '); readln(mahasiswa^.nama);
-        write('NPM: '); readln(mahasiswa^.npm);
-        write('Kelas: '); readln(mahasiswa^.kelas);
+        write('Nama ke-', i, ': '); readln(mahasiswa^.nama);
+        write('NPM ke-', i, ': '); readln(mahasiswa^.npm);
+        write('Kelas ke-', i, ': '); readln(mahasiswa^.kelas);
         writeln;
     end;
-    writeln('-- Data Mahasiswa --');
+    writeln('-- Data Yang DiInput --');
     for i:=1 to jumlah do
     begin
-        writeln('Mahasiswa ke-', i);
-        writeln('Nama: ', mahasiswa^.nama);
-        writeln('NPM: ', mahasiswa^.npm);
-        writeln('Kelas: ', mahasiswa^.kelas);
+        writeln('Nama ke-', i, ': ', mahasiswa^.nama);
+        writeln('NPM ke-', i, ': ', mahasiswa^.npm);
+        writeln('Kelas ke-', i, ': ', mahasiswa^.kelas);
         writeln;
     end;
     dispose(mahasiswa);
