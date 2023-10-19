@@ -1,36 +1,40 @@
 program Pertemuan_4_Tugas;
 uses crt;
 
-type mhsw = ^data;
-    data = record
+type data = record
         nama: string;
         npm: string;
         kelas: string;
     end;
+    pointerMahasiswa = ^data;
 
-var mahasiswa: mhsw;
+var mahasiswa: array of pointerMahasiswa;
     i, jumlah: integer;
 
 begin
     clrscr;
-    new(mahasiswa);
-    write('Masukkan banyak data: '); readln(jumlah);
+    write('Masukkan jumlah mahasiswa: '); readln(jumlah);
+    setLength(mahasiswa, jumlah);
     writeln;
-    for i:=1 to jumlah do
+    writeln('-- Input Data --');
+    for i := 1 to jumlah do
     begin
-        write('Nama ke-', i, ': '); readln(mahasiswa^.nama);
-        write('NPM ke-', i, ': '); readln(mahasiswa^.npm);
-        write('Kelas ke-', i, ': '); readln(mahasiswa^.kelas);
+        new(mahasiswa[i]);
+        writeln('Mahasiswa ke-', i);
+        write('Nama: '); readln(mahasiswa[i]^.nama);
+        write('NPM: '); readln(mahasiswa[i]^.npm);
+        write('Kelas: '); readln(mahasiswa[i]^.kelas);
         writeln;
     end;
-    writeln('-- Data Yang DiInput --');
-    for i:=1 to jumlah do
+    writeln('-- Data Mahasiswa --');
+    for i := 1 to jumlah do
     begin
-        writeln('Nama ke-', i, ': ', mahasiswa^.nama);
-        writeln('NPM ke-', i, ': ', mahasiswa^.npm);
-        writeln('Kelas ke-', i, ': ', mahasiswa^.kelas);
+        writeln('Mahasiswa ke-', i);
+        writeln('Nama: ', mahasiswa[i]^.nama);
+        writeln('NPM: ', mahasiswa[i]^.npm);
+        writeln('Kelas: ', mahasiswa[i]^.kelas);
+        dispose(mahasiswa[i]);
         writeln;
     end;
-    dispose(mahasiswa);
     readln;
 end.
