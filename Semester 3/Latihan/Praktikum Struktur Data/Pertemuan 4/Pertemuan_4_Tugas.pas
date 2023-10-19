@@ -20,19 +20,17 @@ begin
     for i := 1 to jumlah do
     begin
         new(mahasiswa[i]);
-        writeln('Mahasiswa ke-', i);
-        write('Nama: '); readln(mahasiswa[i]^.nama);
-        write('NPM: '); readln(mahasiswa[i]^.npm);
-        write('Kelas: '); readln(mahasiswa[i]^.kelas);
+        write('Masukkan nama ke-', i, '  : '); readln(mahasiswa[i]^.nama);
+        write('Masukkan npm ke-', i, '   : '); readln(mahasiswa[i]^.npm);
+        write('Masukkan kelas ke-', i, ' : '); readln(mahasiswa[i]^.kelas);
         writeln;
     end;
     writeln('-- Data Mahasiswa --');
     for i := 1 to jumlah do
     begin
-        writeln('Mahasiswa ke-', i);
-        writeln('Nama: ', mahasiswa[i]^.nama);
-        writeln('NPM: ', mahasiswa[i]^.npm);
-        writeln('Kelas: ', mahasiswa[i]^.kelas);
+        writeln('Nama ke-', i, '  : ', mahasiswa[i]^.nama);
+        writeln('NPM ke-', i, '   : ', mahasiswa[i]^.npm);
+        writeln('Kelas ke-', i, ' : ', mahasiswa[i]^.kelas);
         dispose(mahasiswa[i]);
         writeln;
     end;
