@@ -1,1 +1,0 @@
-[KLIK DISINI](https://drive.google.com/drive/u/0/mobile/folders/1OXTCf_3JciNZNeK8nJFuW-1b-hSWq6-Z/1rAmRLf_umVqjoXuh6wkFMgLn2zwBTnoe/1GH2tubdnG9Pg1Er99SWXou8A8JVf27s4?usp=share_link&sort=13&direction=a) UNTUK MELIHAT SOAL
