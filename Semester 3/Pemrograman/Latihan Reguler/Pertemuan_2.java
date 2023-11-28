@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Pertemuan2 {
+class Pertemuan_2 {
     public static void main (String[] args) {
         int data[] = {3,9,76,54,43,12,46,39,76,12,88,45,89};
         int i, x;
@@ -23,5 +23,7 @@ class Pertemuan2 {
         }
         
         if (j == 0) System.out.println("Data tidak ditemukan");
+
+        in.close();
     }
 }
