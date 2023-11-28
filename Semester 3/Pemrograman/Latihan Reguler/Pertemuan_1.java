@@ -2,14 +2,8 @@ import java.util.Scanner;
 
 class Pertemuan_1 {
     public static void main (String[] args) {
-        System.out.println("Tugas 1: Dasar Pemrograman Java");
-        System.out.println("Nama : Tobi Saputra");
-        System.out.println("NPM : 202243502612");
-        System.out.println();
-        
         Scanner in = new Scanner(System.in);
         
-        // 4 Variable
         int angka1, angka2, hasil; 
         
         System.out.println("---==[ PERKALIAN ]==---");
