@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pertemuan_3 {
+class Pertemuan_3 {
     public static void main (String[] args) {
         Scanner in = new Scanner(System.in);
         int jumlah;
