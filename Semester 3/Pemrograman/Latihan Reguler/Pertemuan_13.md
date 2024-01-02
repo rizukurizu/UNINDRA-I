@@ -1,3 +1,7 @@
+## Credit : Tobz
+
+---
+
 1. Membuat tabel barang
 2. Menampilkan semua dari tabel barang
 
