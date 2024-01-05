@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class P3_Pertemuan10_BufferedReader {
+public class Pertemuan_10_BufferedReader {
     public static void main(String[] args) {
         try {
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

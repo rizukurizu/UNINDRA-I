@@ -1,4 +1,4 @@
-program Pertemuan_4_Tugas;
+program Pertemuan_4;
 uses crt;
 
 type data = record
