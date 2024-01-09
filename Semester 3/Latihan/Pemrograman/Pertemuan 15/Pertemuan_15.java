@@ -1,4 +1,3 @@
-import java.io.File;
 import java.sql.*;
 import java.util.Scanner;
 
@@ -13,13 +12,8 @@ public class Pertemuan_15 {
     private final static String pathDatabase = "./database.db";
     public static void main(String[] args) {
         try {
-            /** Deklarasi Scanner */
+            /** Deklarasi Scanner & SQLite */
             Scanner in = new Scanner(System.in);
-
-            /** Mengecek File Database */
-            File file = new File(pathDatabase);
-            if (!file.exists()) file.createNewFile();
-
             Class.forName("org.sqlite.JDBC");
             Connection conn = DriverManager.getConnection("jdbc:sqlite:" + pathDatabase);
             Statement s = conn.createStatement();
